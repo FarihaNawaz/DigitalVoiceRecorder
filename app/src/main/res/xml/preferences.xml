@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:textStyle="bold"
+        android:key="@string/pref_high_quality_key"
+        android:title="Record in High Quality" />
+    <Preference
+        android:key="@string/pref_about_key"
+        android:title="About The App" />
+</PreferenceScreen>
